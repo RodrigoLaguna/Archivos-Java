@@ -4,16 +4,16 @@ import static utileria.Archivos.*;
 
 public class ManejoArchivos {
         public static void main(String[] args) {
-                String nombreArchivo = "C:\\Cursos\\Java\\Archivos\\archivoPruebaJava.tx";
+                String nombreArchivo = "direccion_del_archivo";
                 
                 // Creamos el archivo
-                //crearArchivo(nombreArchivo);
+                crearArchivo(nombreArchivo);
                 // Escribir en el archivo
-                //escribirArchivo(nombreArchivo);
+                escribirArchivo(nombreArchivo);
                 // Leer el archivo
-                //leerArchivo(nombreArchivo);
+                leerArchivo(nombreArchivo);
                 // anexar informacion al archivo
-                //anexarArchivo(nombreArchivo);
+                anexarArchivo(nombreArchivo);
                 leerArchivo(nombreArchivo);
         }
 }
